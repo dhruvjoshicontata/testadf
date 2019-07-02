@@ -1,0 +1,15 @@
+{
+	"name": "AzureBlob1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureBlob",
+		"typeProperties": {
+			"fileName": "Personal Training Vitals 2019-04-05.pbix",
+			"folderPath": "powerbireport"
+		}
+	}
+}
