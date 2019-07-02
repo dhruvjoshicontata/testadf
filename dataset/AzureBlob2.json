@@ -1,0 +1,15 @@
+{
+	"name": "AzureBlob2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureBlob",
+		"typeProperties": {
+			"fileName": "",
+			"folderPath": "azure-webjobs-secrets/anytimefitnessraw"
+		}
+	}
+}
